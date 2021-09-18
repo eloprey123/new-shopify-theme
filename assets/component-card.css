@@ -1,4 +1,6 @@
 .card {
+  border-radius: 3rem;
+  margin: 1rem;
   display: block;
   overflow: hidden;
   text-decoration: none;
@@ -97,6 +99,7 @@
 }
 
 .card--text-only .card__inner {
+
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   width: 100%;
@@ -200,6 +203,7 @@
 }
 
 .card-wrapper {
+  border-radius: 3rem;
   color: inherit;
   display: flex;
   flex-direction: column;
@@ -208,6 +212,7 @@
 }
 
 .card-wrapper .card-information {
+  margin-left: 1rem;
   order: 1;
 }
 

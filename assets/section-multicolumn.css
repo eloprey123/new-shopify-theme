@@ -65,6 +65,7 @@
 .multicolumn:not(.background-none) .multicolumn-card {
   background: rgba(var(--color-foreground), 0.04);
   height: 100%;
+  border-radius: 3rem;
 }
 
 .multicolumn.background-secondary .multicolumn-card {
