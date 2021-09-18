@@ -166,6 +166,8 @@
 }
 
 .banner__box {
+  border-radius: 3rem;
+  margin: 1rem;
   border: 0;
   padding: 4rem 3.5rem;
   position: relative;
@@ -262,7 +264,6 @@
 
 @media screen and (min-width: 750px) {
   .banner__box {
-    border-radius: 5rem;
     padding: 5rem;
     width: auto;
     max-width: 51rem;

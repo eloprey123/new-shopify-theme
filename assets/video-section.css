@@ -26,6 +26,7 @@
 .video-section__media iframe {
   background-color: rgba(var(--color-foreground), 0.03);
   border: 0;
+  border-radius: 3rem;
 }
 
 .video-section__poster,
