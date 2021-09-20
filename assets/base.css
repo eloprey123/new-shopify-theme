@@ -174,7 +174,7 @@ html.no-js .no-js-hidden {
 .page-width {
   max-width: var(--page-width);
   margin: 0 auto;
-  padding: 0 1.5rem;
+  /* padding: 0 1.5rem; */
 }
 
 .page-width-desktop {
@@ -184,40 +184,40 @@ html.no-js .no-js-hidden {
 
 @media screen and (min-width: 750px) {
   .page-width {
-    padding: 0 5rem;
+    /* padding: 0 5rem; */
   }
 
   .page-width--narrow {
-    padding: 0 9rem;
+    /* padding: 0 9rem; */
   }
 
   .page-width-desktop {
-    padding: 0;
+    /* padding: 0; */
   }
 }
 
 @media screen and (min-width: 990px) {
   .page-width--narrow {
     max-width: 72.6rem;
-    padding: 0;
+    /* padding: 0; */
   }
 
   .page-width-desktop {
     max-width: var(--page-width);
-    padding: 0 5rem;
+    /* padding: 0 5rem; */
   }
 }
 
 .element-margin {
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 .spaced-section {
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 .spaced-section:last-child {
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 
 @media screen and (min-width: 750px) {
@@ -2299,4 +2299,12 @@ details-disclosure > details {
   .icon-close-small path {
     stroke: CanvasText;
   }
+}
+
+.shopify-section {
+  padding-bottom: 0;
+}
+
+div#shopify-section-template--15056940400792__rich_text {
+  margin-top: 0;
 }

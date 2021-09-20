@@ -1,4 +1,9 @@
+<link rel="stylesheet" href="{{ 'custom-section.css' | asset_url }}" media="print" onload="this.media='all'">
+<!-- 
 {{ section.settings.custom_liquid }}
+ -->
+<div class="spacer layer1 {% unless section.settings.full_width %}page-width{% endunless %}">
+</div>
 
 {% schema %}
 {
