@@ -36,6 +36,12 @@
         "show_text_below": true
       }
     },
+    "16321661708eb0af3e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -69,12 +75,6 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
-      }
-    },
-    "16321661708eb0af3e": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": ""
       }
     },
     "featured_products": {
@@ -192,8 +192,8 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
     "16321661708eb0af3e",
+    "rich_text",
     "featured_products",
     "collage",
     "video",
