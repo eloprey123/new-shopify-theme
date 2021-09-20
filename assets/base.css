@@ -1231,7 +1231,7 @@ deferred-media {
 .customer button[aria-disabled='true'],
 .customer button.disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .button--full-width {

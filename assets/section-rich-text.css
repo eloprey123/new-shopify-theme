@@ -1,6 +1,66 @@
 .rich-text {
+  /* position: relative; */
+  display: flex;
   margin: auto;
   text-align: center;
+  /* background: red;
+  overflow: hidden; */
+}
+
+/* .extra {
+  position: relative;
+  background: red;
+  height: 157px;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 157px;
+}
+
+.wave .shape-fill {
+  fill: #FFF;
+} */
+
+.curve {
+  position: absolute;
+  height: 220px;
+  width: 100%;
+  bottom: 0;
+}
+
+.curve::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: blue;
+  transform: translate(85%, 60%);
+}
+
+.curve::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: red;
+  transform: translate(-4%, 40%);
+  z-index: -1;
 }
 
 .rich-text.rich-text--full-width {
