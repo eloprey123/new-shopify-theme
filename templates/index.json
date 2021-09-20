@@ -136,6 +136,12 @@
         "full_width": false
       }
     },
+    "16321661708eb0af3e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -176,6 +182,12 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "163216619663e606a5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
@@ -184,6 +196,8 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "16321661708eb0af3e",
+    "multi_column",
+    "163216619663e606a5"
   ]
 }
