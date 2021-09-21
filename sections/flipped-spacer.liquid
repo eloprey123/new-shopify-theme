@@ -1,3 +1,8 @@
+<link rel="stylesheet" href="{{ 'flipped-spacer.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<div class="spacer layer1 {% unless section.settings.full_width %}page-width{% endunless %}">
+
+</div>
 {% schema %}
   {
     "name": "Section name",
