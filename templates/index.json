@@ -93,6 +93,12 @@
         "show_rating": false
       }
     },
+    "163224811403ee7b61": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -142,6 +148,12 @@
         "full_width": false
       }
     },
+    "16322481649d283b81": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -189,8 +201,10 @@
     "16321661708eb0af3e",
     "rich_text",
     "featured_products",
+    "163224811403ee7b61",
     "collage",
     "video",
+    "16322481649d283b81",
     "multi_column"
   ]
 }
