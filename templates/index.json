@@ -77,6 +77,11 @@
         "full_width": true
       }
     },
+    "1632251624d91c7f5d": {
+      "type": "flipped-spacer",
+      "settings": {
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -139,6 +144,11 @@
         "mobile_layout": "collage"
       }
     },
+    "1632251797e2135d2c": {
+      "type": "flipped-spacer",
+      "settings": {
+      }
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -194,17 +204,25 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1632251855cdd08f7e": {
+      "type": "flipped-spacer",
+      "settings": {
+      }
     }
   },
   "order": [
     "image_banner",
     "16321661708eb0af3e",
     "rich_text",
+    "1632251624d91c7f5d",
     "featured_products",
     "163224811403ee7b61",
     "collage",
+    "1632251797e2135d2c",
     "video",
     "16322481649d283b81",
-    "multi_column"
+    "multi_column",
+    "1632251855cdd08f7e"
   ]
 }
