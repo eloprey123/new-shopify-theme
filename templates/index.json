@@ -182,12 +182,6 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "163216619663e606a5": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n.flipped {\n  transform: rotate(180deg);\n<\/style>"
-      }
     }
   },
   "order": [
