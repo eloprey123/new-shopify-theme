@@ -151,9 +151,6 @@
 
 /* base */
 
-.flipped {
-  transform: rotate(180deg);
-}
 
 .no-js:not(html) {
   display: none !important;
@@ -177,13 +174,13 @@ html.no-js .no-js-hidden {
 
 .page-width {
   max-width: var(--page-width);
-/*   margin: 0 auto; */
-/*   padding: 0 1.5rem; */
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 .page-width-desktop {
-/*   padding: 0; */
-/*   margin: 0 auto; */
+  padding: 0;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 750px) {
@@ -812,7 +809,7 @@ summary::-webkit-details-marker {
 /* component-title */
 .title,
 .title-wrapper-with-link {
-  margin: 3rem 0 2rem;
+  margin: 0 0 2rem;
 }
 
 .title-wrapper-with-link .title {
@@ -832,7 +829,7 @@ summary::-webkit-details-marker {
   justify-content: space-between;
   align-items: flex-end;
   gap: 1rem;
-  margin: 4rem 0 3rem;
+  margin: 0 0 3rem;
   flex-wrap: wrap;
 }
 
@@ -856,7 +853,7 @@ summary::-webkit-details-marker {
 @media screen and (min-width: 990px) {
   .title,
   .title-wrapper-with-link {
-    margin: 5rem 0 3rem;
+    margin: 0 0 3rem;
   }
 
   .title--primary {
@@ -2325,4 +2322,8 @@ section#shopify-section-template--15056940400792__16321661708eb0af3e {
   margin-top: 0;
   margin-bottom: 0;
   border: none;
+}
+
+section#shopify-section-template--15056940400792__multi_column {
+  background: #164040;
 }
