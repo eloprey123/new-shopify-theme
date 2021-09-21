@@ -8,3 +8,7 @@
 .layer1 {
     background-image: url('./layer1.svg');
 }
+
+.flipped {
+    transform: rotate(180deg);
+}

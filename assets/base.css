@@ -151,6 +151,10 @@
 
 /* base */
 
+.flipped {
+  transform: rotate(180deg);
+}
+
 .no-js:not(html) {
   display: none !important;
 }
@@ -2308,15 +2312,16 @@ details-disclosure > details {
 }
 
 section#shopify-section-template--15056940400792__rich_text {
-  margin-top: -5rem;
+  margin-top: 0;
   margin-bottom: 0;
+  padding-top: 0;
 }
 
-div#shopify-section-template--15056940400792__featured_products {
+section#shopify-section-template--15056940400792__featured_products {
   margin-top: 0;
   margin-bottom: 0;
 }
-div#shopify-section-template--15056940400792__16321661708eb0af3e {
+section#shopify-section-template--15056940400792__16321661708eb0af3e {
   margin-top: 0;
   margin-bottom: 0;
   border: none;
