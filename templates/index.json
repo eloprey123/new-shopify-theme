@@ -186,7 +186,7 @@
     "163216619663e606a5": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": ".flipped {\n  transform: rotate(180deg);\n}"
+        "custom_liquid": "<style>\n.flipped {\n  transform: rotate(180deg);\n<\/style>"
       }
     }
   },
