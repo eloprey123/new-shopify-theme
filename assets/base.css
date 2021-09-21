@@ -177,13 +177,13 @@ html.no-js .no-js-hidden {
 
 .page-width {
   max-width: var(--page-width);
-  margin: 0 auto;
-  padding: 0 1.5rem;
+/*   margin: 0 auto; */
+/*   padding: 0 1.5rem; */
 }
 
 .page-width-desktop {
-  padding: 0;
-  margin: 0 auto;
+/*   padding: 0; */
+/*   margin: 0 auto; */
 }
 
 @media screen and (min-width: 750px) {
@@ -213,15 +213,15 @@ html.no-js .no-js-hidden {
 }
 
 .element-margin {
-  margin-top: 5rem;
+/*   margin-top: 5rem; */
 }
 
 .spaced-section {
-  margin-top: 5rem;
+/*   margin-top: 5rem; */
 }
 
 .spaced-section:last-child {
-  margin-bottom: 5rem;
+/*   margin-bottom: 5rem; */
 }
 
 @media screen and (min-width: 750px) {
