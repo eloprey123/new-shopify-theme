@@ -102,6 +102,7 @@
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   width: 100%;
+  position: relative;
 }
 
 .card__content {

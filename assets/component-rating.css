@@ -58,3 +58,18 @@
     display: block;
   }
 }
+
+.spacer-squig {
+  aspect-ratio: 900/150;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  bottom: 0;
+  position: absolute;
+}
+
+.layer-squig {
+  background-image: url('./layersquig.svg');
+  transform: rotate(180deg);
+  width: 100%;
+}
