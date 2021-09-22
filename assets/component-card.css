@@ -2,7 +2,7 @@
   display: block;
   overflow: hidden;
   text-decoration: none;
-  border-radius: 3rem;
+  border-radius: 5rem;
 }
 
 .card-information + .card {
@@ -98,7 +98,7 @@
 }
 
 .card--text-only .card__inner {
-  border-radius: 3rem;
+  border-radius: 5rem;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   width: 100%;

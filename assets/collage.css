@@ -45,7 +45,7 @@
 .collage-card {
   position: relative;
   border: 0.1rem solid rgba(var(--color-foreground), 0.08);
-  border-radius: 3rem;
+  border-radius: 5rem;
 }
 
 .collage-card.collage-collection {
@@ -160,7 +160,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  border-radius: 3rem;
+  border-radius: 5rem;
 }
 
 .collage-content {
