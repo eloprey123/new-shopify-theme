@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+.multicolumn {
+  background: #164040;
+}
+
 .multicolumn.no-heading .title {
   display: none;
 }
