@@ -1,7 +1,18 @@
+<link rel="stylesheet" href="{{ 'spacer-same.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<div class="spacer layer1 {% unless section.settings.full_width %}page-width{% endunless %}">
+  <p></p>
+</div>
 {% schema %}
   {
     "name": "Section name",
-    "settings": []
+    "settings": [],
+	"presets": [
+	  {
+		"category": "image",
+		"name": "same spacer"
+	  }
+	]
   }
 {% endschema %}
 
