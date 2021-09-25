@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
-
+<script src="../assets/js/kute.min.js"></script>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -27,6 +27,26 @@
         {%- endcase -%}
       {%- endfor -%}
     </div>
+    <!-- <svg class="blob-motion" id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+      <g transform="translate(447.7798390993652 334.46785851565755)">
+        <path id="blob1" d="M150.4 -175.4C175.4 -125.4 162.7 -62.7 149.5 -13.2C136.3 36.3 122.6 72.6 97.6 107.8C72.6 142.9 36.3 177 -5.4 182.4C-47.1 187.8 -94.3 164.6 -123.6 129.4C-152.9 94.3 -164.5 47.1 -158.9 5.5C-153.4 -36.1 -130.8 -72.1 -101.5 -122.1C-72.1 -172.1 -36.1 -236.1 13.3 -249.4C62.7 -262.7 125.4 -225.4 150.4 -175.4" fill="#009ad3">
+        </path>
+      </g>
+      <g transform="translate(430.51550755164317 283.77313688914376)" style="visibility: hidden;">
+        <path id="blob2" d="M155.6 -146.9C191.4 -119.7 203.2 -59.9 208.6 5.4C214 70.7 213.1 141.4 177.3 173.9C141.4 206.4 70.7 200.7 1.9 198.8C-66.9 196.9 -133.9 198.9 -158.9 166.4C-183.9 133.9 -166.9 66.9 -159.8 7.2C-152.6 -52.6 -155.1 -105.1 -130.1 -132.3C-105.1 -159.5 -52.6 -161.2 3.7 -164.9C59.9 -168.5 119.7 -174.1 155.6 -146.9" fill="#009ad3">
+        </path>
+      </g>
+    </svg>
+    <script>
+      const tween = KUTE.fromTo(
+        '#blob1',
+        { path: '#blob1' },
+        { path: '#blob2'},
+        { repeat: 999, duration: 3000, yoyo: true }
+      )
+
+      tween.start()
+    </script> -->
   </div>
 
 </div>

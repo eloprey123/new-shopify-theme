@@ -4,6 +4,7 @@
 
 .multicolumn {
   background: #164040;
+  padding-bottom: 1rem;
 }
 
 .multicolumn.no-heading .title {

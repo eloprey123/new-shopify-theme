@@ -5,6 +5,8 @@
   text-align: center;
   background: #164040;
   overflow: hidden;
+  position: relative;
+  padding-bottom: 1rem;
 }
 
 /* .extra {
@@ -118,6 +120,7 @@
 
 @media screen and (min-width: 990px) {
   .rich-text__blocks {
+    z-index: 1;
     max-width: 78rem;
   }
 }
@@ -135,4 +138,12 @@
 
 .rich-text__blocks > * + a {
   margin-top: 3rem;
+}
+
+.blob-motion {
+  height: 100%;
+  z-index: 0;
+  transform: translateX(20%);
+  aspect-ratio: 900/600;
+  position: absolute;
 }

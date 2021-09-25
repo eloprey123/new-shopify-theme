@@ -91,7 +91,8 @@
 
 .shopify-payment-button__button--unbranded:hover,
 .shopify-payment-button__button--unbranded:hover:not([disabled]) {
-  background-color: rgba(var(--color-button), var(--alpha-button-background));
+  background-color: #001220;
+  color: #fff0bf;
   box-shadow: 0 0 0 0.2rem rgba(var(--color-button), var(--alpha-button-border));
 }
 
